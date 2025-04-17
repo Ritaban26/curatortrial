@@ -1,0 +1,4 @@
+[15-Apr-2025 19:22:30 UTC] PHP Warning:  Unknown: Failed to open stream: No such file or directory in Unknown on line 0
+[15-Apr-2025 19:22:30 UTC] PHP Fatal error:  Failed opening required 'D:/New folder/Local/resources/extraResources/local-bootstrap.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in Unknown on line 0
+[15-Apr-2025 19:22:30 UTC] PHP Warning:  Unknown: Failed to open stream: No such file or directory in Unknown on line 0
+[15-Apr-2025 19:22:30 UTC] PHP Fatal error:  Failed opening required 'D:/New folder/Local/resources/extraResources/local-bootstrap.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in Unknown on line 0
