@@ -92,6 +92,14 @@ if ( ! defined( 'WP_DEBUG' ) ) {
 }
 
 define( 'WP_ENVIRONMENT_TYPE', 'local' );
+
+if ($_SERVER['HTTP_HOST'] == 'localhost') {
+    define('WP_HOME', 'http://localhost/curatortrial/app/public');
+    define('WP_SITEURL', 'http://localhost/curatortrial/app/public');
+} else {
+    define('WP_HOME', 'http://curator.com');
+    define('WP_SITEURL', 'http://curator.com');
+}
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
